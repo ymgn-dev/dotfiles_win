@@ -28,6 +28,7 @@ wsl --upgrade
 # Chocolatey
 
 - fvm
+- Starship
 
 # Manual install
 
