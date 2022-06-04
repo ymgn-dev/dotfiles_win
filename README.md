@@ -15,7 +15,6 @@
 - Figma.Figma
 - Fork.Fork
 - Notion.Notion
-- Piriform.CCleaner
 
 # WSL2
 
