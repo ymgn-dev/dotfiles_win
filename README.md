@@ -6,6 +6,15 @@ PowerShellスクリプトを管理者権限で起動し、次のコマンドを�
 Set-ExecutionPolicy RemoteSigned
 ```
 
+# インストール
+
+1. このリポジトリをダウンロードして展開
+2. PowerShellで次のコマンドを実行
+
+```sh
+.\bootstrap.ps1
+```
+
 # パッケージマネージャ
 
 極力WinGet経由でインストールし、次にchocolatey経由でインストールする。
