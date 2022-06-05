@@ -15,6 +15,7 @@
   "dart.useLsp": true,
   "dart.renameFilesWithClasses": "always",
   "dart.flutterCreateOrganization": "com.ymgn9314",
+  "dart.flutterSdkPath": ".fvm\\flutter_sdk",
 
   // Remove .fvm files from search
   "search.exclude": {
