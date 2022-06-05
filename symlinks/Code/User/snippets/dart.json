@@ -1,0 +1,58 @@
+{
+  "Freezed State": {
+    "prefix": "freezedstate",
+    "body": [
+      "// ignore: unnecessary_import, unused_import",
+      "import 'package:flutter/foundation.dart';",
+      "import 'package:freezed_annotation/freezed_annotation.dart';",
+      "",
+      "part '$TM_FILENAME_BASE.freezed.dart';",
+      "",
+      "@freezed",
+      "class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} with _$${1} {",
+      "  const factory ${1}({",
+      "    required ${2:String id},",
+      "  }) = _${1};",
+      "}"
+    ],
+    "description": "Freezed State"
+  },
+  "Freezed Json": {
+    "prefix": "freezedjson",
+    "body": [
+      "// ignore: unnecessary_import, unused_import",
+      "import 'package:flutter/foundation.dart';",
+      "import 'package:freezed_annotation/freezed_annotation.dart';",
+      "",
+      "part '$TM_FILENAME_BASE.freezed.dart';",
+      "part '$TM_FILENAME_BASE.g.dart';",
+      "",
+      "@freezed",
+      "class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} with _$${1} {",
+      "  const factory ${1}({",
+      "    required ${2:String id},",
+      "  }) = _${1};",
+      "  ",
+      "  factory ${1}.fromJson(Map<String, dynamic> json) => _$${1}FromJson(json);",
+      "}"
+    ],
+    "description": "Freezed Json"
+  },
+  "Freezed Unions": {
+    "prefix": "freezedunions",
+    "body": [
+      "// ignore: unnecessary_import, unused_import",
+      "import 'package:flutter/foundation.dart';",
+      "import 'package:freezed_annotation/freezed_annotation.dart';",
+      "",
+      "part '$TM_FILENAME_BASE.freezed.dart';",
+      "",
+      "@freezed",
+      "class ${1/(.*)/${1:/pascalcase}/g} with _$${1/(.*)/${1:/pascalcase}/g} {",
+      "  const factory ${1/(.*)/${1:/pascalcase}/g}.${2}({Object? exception, StackTrace? stackTrace,}) = ${2/(.*)/${1:/pascalcase}/g};",
+      "  const factory ${1/(.*)/${1:/pascalcase}/g}.${3}({Object? exception, StackTrace? stackTrace,}) = ${3/(.*)/${1:/pascalcase}/g};",
+      "}"
+    ],
+    "description": "Freezed Unions"
+  }
+}
