@@ -1,3 +1,11 @@
+# 事前準備
+
+PowerShellスクリプトを管理者権限で起動し、次のコマンドを実行しておく。
+
+```sh
+Set-ExecutionPolicy RemoteSigned
+```
+
 # パッケージマネージャ
 
 極力WinGet経由でインストールし、次にchocolatey経由でインストールする。

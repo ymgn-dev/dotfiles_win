@@ -1,9 +1,14 @@
 {
   "cSpell.words": [
     "Affinify",
+    "appsettings",
+    "asax",
+    "ashx",
+    "bbwe",
     "blaxou",
     "bradlc",
     "brunhage",
+    "bundleconfig",
     "dbaeumer",
     "errorlens",
     "esbenp",
@@ -11,14 +16,20 @@
     "freezedjson",
     "freezedstate",
     "freezedunions",
+    "heex",
+    "leex",
     "localizely",
     "pascalcase",
     "Piriform",
+    "Redist",
+    "resx",
     "riverpod",
     "tailwindcss",
     "toba",
     "usernamehw",
     "vsfire",
-    "winget"
+    "wekyb",
+    "winget",
+    "ymgn"
   ]
 }
