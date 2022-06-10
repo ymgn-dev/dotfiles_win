@@ -8,8 +8,8 @@ New-Item -Value $PSScriptRoot\symlinks\Code\User\keybindings.json -Path $env:APP
 Remove-Item $env:APPDATA\Code\User\snippets\dart.json
 New-Item -Value $PSScriptRoot\symlinks\Code\User\snippets\dart.json -Path $env:APPDATA\Code\User\snippets\ -Name dart.json -ItemType SymbolicLink
 
-# Vscode setup
-powershell -NoProfile -ExecutionPolicy RemoteSigned $PSScriptRoot\vscode\setup.ps1
-
 # Install Packages
 powershell -NoProfile -ExecutionPolicy RemoteSigned $PSScriptRoot\packages\setup.ps1
+
+# Vscode setup
+powershell -NoProfile -ExecutionPolicy RemoteSigned $PSScriptRoot\vscode\setup.ps1
