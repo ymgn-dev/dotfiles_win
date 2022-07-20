@@ -46,6 +46,16 @@ Set-ExecutionPolicy RemoteSigned
 - FVM
 - Starship
 
+# 各パッケージマネージャの設定ファイル吐き出し
+
+```sh
+# Winget
+winget export --output .\packages\via_winge
+
+# Chocolatey
+choco export --output-file-path .\packages\packages.config
+```
+
 # WSL2のインストール
 
 ```sh
