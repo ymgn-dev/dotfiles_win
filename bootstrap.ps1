@@ -11,5 +11,8 @@ New-Item -Value $PSScriptRoot\symlinks\Code\User\snippets\dart.json -Path $env:A
 # Install Packages
 powershell -NoProfile -ExecutionPolicy RemoteSigned $PSScriptRoot\packages\setup.ps1
 
+# Install Modules
+powershell -NoProfile -ExecutionPolicy RemoteSigned $PSScriptRoot\modules\setup.ps1
+
 # Vscode setup
 powershell -NoProfile -ExecutionPolicy RemoteSigned $PSScriptRoot\vscode\setup.ps1
