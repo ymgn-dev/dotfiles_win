@@ -70,3 +70,31 @@ wsl --upgrade
 - Hack Regular Nerd Font Complete Windows Compatible(https://www.nerdfonts.com/font-downloads)
 - Armoury Crate(https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-b550-f-gaming-model/helpdesk_download)
 - Affinify Designer(https://affinity.serif.com/ja-jp/)
+
+# その他
+
+Microsoft.PowerShell_profile.ps1が以下と一致しているか確認。
+
+```sh
+code $PROFILE
+```
+
+```ps1
+# https://dev.to/ofhouse/add-a-bash-like-autocomplete-to-your-powershell-4257
+# Shows navigable menu of all options when hitting Tab
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+
+# Autocompletion for arrow keys
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+# New-Alias <alias> <aliased-command>
+New-Alias open ii
+
+# Starship
+Invoke-Expression (&starship init powershell)
+
+# Auto suggestion for PowerShell
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
+```
