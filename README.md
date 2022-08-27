@@ -40,11 +40,12 @@ Set-ExecutionPolicy RemoteSigned
 - Figma.Figma
 - Fork.Fork
 - Notion.Notion
+- --id Starship.Starship
 
 # Chocolatey経由
 
 - FVM
-- Starship
+- ~Starship~
 
 # 各パッケージマネージャの設定ファイル吐き出し
 
