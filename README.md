@@ -15,6 +15,12 @@ Set-ExecutionPolicy RemoteSigned
 .\bootstrap.ps1
 ```
 
+# PowerShellのアップデート
+
+```sh
+winget upgrade --id Microsoft.Powershell --source winget
+```
+
 # パッケージマネージャ
 
 極力WinGet経由でインストールし、次にchocolatey経由でインストールする。
