@@ -21,6 +21,12 @@ Set-ExecutionPolicy RemoteSigned
 winget upgrade --id Microsoft.Powershell --source winget
 ```
 
+# WSL2 + Ubuntuのインストール
+
+```sh
+wsl --install -d Ubuntu-20.04
+```
+
 # パッケージマネージャ
 
 極力WinGet経由でインストールし、次にchocolatey経由でインストールする。
