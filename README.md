@@ -27,6 +27,12 @@ winget upgrade --id Microsoft.Powershell --source winget
 wsl --install -d Ubuntu-20.04
 ```
 
+# WSL2上にCUDAのインストール
+
+CUDAの公式サイトでWSL-Ubuntuのディストリビューションを選択してインストールする。￥
+
+https://docs.nvidia.com/cuda/wsl-user-guide/index.html#running-cuda
+
 # パッケージマネージャ
 
 極力WinGet経由でインストールし、次にchocolatey経由でインストールする。
