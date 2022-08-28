@@ -93,6 +93,8 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
 
 - Armoury Crate(https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-b550-f-gaming-model/helpdesk_download)
 - Affinify Designer(https://affinity.serif.com/ja-jp/)
+- UR22Cドライバー
+  - https://japan.steinberg.net/jp/support/downloads/ur_c.html
 
 # その他
 
