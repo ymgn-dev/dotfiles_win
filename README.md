@@ -87,6 +87,10 @@ wsl --upgrade
 # マニュアルインストール
 
 - Hack Regular Nerd Font Complete Windows Compatible(https://www.nerdfonts.com/font-downloads)
+```sh
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
+```
+
 - Armoury Crate(https://rog.asus.com/jp/motherboards/rog-strix/rog-strix-b550-f-gaming-model/helpdesk_download)
 - Affinify Designer(https://affinity.serif.com/ja-jp/)
 
