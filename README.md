@@ -29,7 +29,7 @@ wsl --install -d Ubuntu-20.04
 
 # WSL2上にCUDAのインストール
 
-CUDAの公式サイトでWSL-Ubuntuのディストリビューションを選択してインストールする。￥
+CUDAの公式サイトでWSL-Ubuntuのディストリビューションを選択してインストールする。
 
 https://docs.nvidia.com/cuda/wsl-user-guide/index.html#running-cuda
 
